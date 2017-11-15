@@ -5,3 +5,36 @@ body{
   background-color: black;
   opacity: .9;
 }
+
+.header{
+  height: 69px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  flex-wrap: nowrap;
+}
+
+.header img{
+  height: 50px;
+  padding-left: 10px;
+  margin-right: 500px;
+}
+
+.header a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav{
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+nav span{
+  padding: 0px 15px;
+  flex-shrink: 0;
+}
