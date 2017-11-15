@@ -6,6 +6,7 @@ body{
   opacity: .9;
 }
 
+/* Header */
 .header{
   height: 69px;
   width: 100%;
@@ -14,8 +15,10 @@ body{
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  z-index: 5;
-  flex-wrap: nowrap;
+  z-index: 15;
+  top: 0px;
+  overflow: scroll;
+  background-color: inherit;
 }
 
 .header img{
@@ -37,4 +40,29 @@ nav{
 nav span{
   padding: 0px 15px;
   flex-shrink: 0;
+}
+
+/* Mission */
+.mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("./images/img-mission-background.jpg");
+  margin: 69px auto 0px auto;
+}
+
+.statement{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.statement h2, h4{
+  margin: 10px 0px;
 }
