@@ -35,6 +35,7 @@ body{
 nav{
   display: inline-flex;
   flex-wrap: nowrap;
+  margin-right: 5px;
 }
 
 nav span{
@@ -111,10 +112,11 @@ nav span{
   width: 1200px;
   height: 500px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url("./images/img-locations-background.jpg");
-  margin-top: 60px;
+  margin: 60px auto 0px auto;
 }
 
 .location{
@@ -125,7 +127,7 @@ nav span{
   justify-content: space-around;
   align-items: center;
   opacity: 1;
-  margin: 0px 20px;
+  margin: 15px 20px 0px 20px;
   background-color: black;
 }
 
@@ -133,9 +135,13 @@ nav span{
   margin: 0px;
 }
 
-.locations h2{
-  position: absolute;
-  padding-bottom: 415px;
+.threebox{
+  display: flex;
+  margin-bottom: 55px;
+}
+
+.lochead{
+  margin: 0px;
 }
 
 /* Contact */
@@ -144,4 +150,10 @@ nav span{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Footer */
+.footer{
+  margin-left: 20px;
+  margin-top: 100px;
 }
